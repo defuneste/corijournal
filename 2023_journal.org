@@ -12,14 +12,31 @@
 - [ ] some of the fastverse
 - [ ] Rstudio
 *** Emacs/mydotfile
-*** Linux&convenience [1/5]
+*** Linux&convenience [4/6]
 - [x] homebrew
   * followed homebrew install instruction https://brew.sh/
   * added/created ~.zprofile~ following instruction
 - [ ] docker
-- [ ] git
+- [x] git
+  * Followed this link : https://git-scm.com/download/mac
+
+    #+begin_src bash
+    brew install git
+    git --version
+    #+end_src
+
 - [ ] postgreSQL/Postgis -> maybe on server
-- [ ] ohmyzash
+- [x] ohmyzash
+  * followed instruction: https://github.com/ohmyzsh/ohmyzsh
+    #+begin_src bash
+    sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+    # added macos and chucknorris plugin
+    # docker, emacs could be added
+    # vi ~/.zshrc
+    #+end_src
+
+- [x] ssh
+  already installed see ~ssh~
 
 *** getting access to work envt
 
