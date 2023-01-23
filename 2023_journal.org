@@ -51,7 +51,29 @@
 - do they use github in public or not? (need help on that ssh, etc..)
 
 * Meeting with October
-	- linkedin/twitter and social media stuff?
+- linkedin/twitter and social media stuff?
+- Assisting communities not operating them
+
+** some key facts
+- 34 communities
+- 2200000 people
+
+** Retreat: marsh 13-14-15
+
+** Check the ressource center
+
+** Check self eval
+
+- [ ] form DEI+B
+
+- [ ] for benefit go in the ressource center
+    section 3 nothing
+    section 4 for adult + kid
+    dental ignore
+    email the form
+    we divide the monthly by pay periode
+    hsa eligible
+
 * Reading/watching list
 ** RWIF Story 1
 ** Ascendium report: Rural Tech Employment Landscape (TED)
