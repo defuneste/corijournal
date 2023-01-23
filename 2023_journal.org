@@ -62,7 +62,8 @@
 
 ** Check the ressource center
 
-** Check self eval
+** TODO Check self eval
+DEADLINE: <2023-01-30 Mon>
 
 - [ ] form DEI+B
 
@@ -74,6 +75,8 @@
     we divide the monthly by pay periode
     hsa eligible
 
+- [ ] Bio + headshot
+
 * Reading/watching list
 ** RWIF Story 1
 ** Ascendium report: Rural Tech Employment Landscape (TED)
@@ -84,3 +87,14 @@
 *** Geography of innovation
 *** Automation in rural America
 ** Watch rural edge videos on Rural Innovation Network communities
+
+* TODO Logging/stuff [6/6]
+- [x] Zoom
+    -> profil
+- [x] Slack
+   -> profil
+- [x] Asana
+    -> created a profil do not know about it too much
+- [x] CORI github
+- [x] Zendesk
+- [x] Airtable
