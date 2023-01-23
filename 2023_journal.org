@@ -2,7 +2,7 @@
 
 <2023-01-23 Mon>
 
-* Start to set up mac, a lot of stuff to do, not very urgent
+* Start to set up mac, a lot of install to do, not very urgent
 ** stuff that it look like I will need in no particular order
 *** R / Rstudio [0/6]
 - [ ] radian
@@ -12,14 +12,16 @@
 - [ ] some of the fastverse
 - [ ] Rstudio
 *** Emacs/mydotfile
-*** Linux&stuff [0/5]
-- [ ] homebrew
+*** Linux&convenience [1/5]
+- [x] homebrew
+  * followed homebrew install instruction https://brew.sh/
+  * added/created ~.zprofile~ following instruction
 - [ ] docker
 - [ ] git
 - [ ] postgreSQL/Postgis -> maybe on server
 - [ ] ohmyzash
 
-*** getting acces to work envt
+*** getting access to work envt
 
 * Meeting with all the team
 
@@ -33,3 +35,13 @@
 
 * Meeting with October
 	- linkedin/twitter and social media stuff?
+* Reading/watching list
+** RWIF Story 1
+** Ascendium report: Rural Tech Employment Landscape (TED)
+** EDA reports on future focused rural dev.
+*** The future of work in rural America
+*** The rise of remote work in rural America
+*** The gig economy in rural America
+*** Geography of innovation
+*** Automation in rural America
+** Watch rural edge videos on Rural Innovation Network communities
