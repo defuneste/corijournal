@@ -1,0 +1,35 @@
+#+TITLE: 2023 Journal
+
+<2023-01-23 Mon>
+
+* Start to set up mac, a lot of stuff to do, not very urgent
+** stuff that it look like I will need in no particular order
+*** R / Rstudio [0/6]
+- [ ] radian
+- [ ] task view Spatial
+- [ ] DBI/RpostgreSQL
+- [ ] tidyverse
+- [ ] some of the fastverse
+- [ ] Rstudio
+*** Emacs/mydotfile
+*** Linux&stuff [0/5]
+- [ ] homebrew
+- [ ] docker
+- [ ] git
+- [ ] postgreSQL/Postgis -> maybe on server
+- [ ] ohmyzash
+
+*** getting acces to work envt
+
+* Meeting with all the team
+
+* Meeting with Betsy
+
+* Important point to discus with every members:
+- what tools do they use?
+- what are their data need?
+- what are their workflow?
+- do they use github in public or not? (need help on that ssh, etc..)
+
+* Meeting with October
+	- linkedin/twitter and social media stuff?
