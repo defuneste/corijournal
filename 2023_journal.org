@@ -1,9 +1,14 @@
 #+TITLE: 2023 Journal
 
-<2023-01-23 Mon>
+** Important point to discus with every members:
+- what tools do they use?
+- what are their data need?
+- what are their workflow?
+- do they use github in public or not? (need help on that ssh, etc..)
 
-* Start to set up mac, a lot of install to do, not very urgent
-** stuff that it look like I will need in no particular order
+* <2023-01-23 Mon>
+
+** seting up mac that it look like I will need in no particular order
 *** R / Rstudio [0/6]
 - [ ] radian
 - [ ] task view Spatial
@@ -25,7 +30,7 @@
     git --version
     #+end_src
 
-- [ ] postgreSQL/Postgis -> maybe on server
+- [x] postgreSQL/Postgis -> maybe on server
 - [x] ohmyzash
   * followed instruction: https://github.com/ohmyzsh/ohmyzsh
     #+begin_src bash
@@ -38,31 +43,22 @@
 - [x] ssh
   already installed see ~ssh~
 
-*** getting access to work envt
+** Meeting with all the team
 
-* Meeting with all the team
-
-* Meeting with Betsy
-
-* Important point to discus with every members:
-- what tools do they use?
-- what are their data need?
-- what are their workflow?
-- do they use github in public or not? (need help on that ssh, etc..)
-
-* Meeting with October
+** Meeting with Betsy
+** Meeting with October
 - linkedin/twitter and social media stuff?
 - Assisting communities not operating them
 
-** some key facts
+*** some key facts
 - 34 communities
 - 2200000 people
 
-** Retreat: marsh 13-14-15
+*** Retreat: marsh 13-14-15
 
-** Check the ressource center
+*** Check the ressource center
 
-** TODO Check self eval
+*** TODO Check self eval
 DEADLINE: <2023-01-30 Mon>
 
 - [ ] form DEI+B
@@ -77,18 +73,18 @@ DEADLINE: <2023-01-30 Mon>
 
 - [ ] Bio + headshot
 
-* Reading/watching list
-** RWIF Story 1
-** Ascendium report: Rural Tech Employment Landscape (TED)
-** EDA reports on future focused rural dev.
-*** The future of work in rural America
-*** The rise of remote work in rural America
-*** The gig economy in rural America
-*** Geography of innovation
-*** Automation in rural America
-** Watch rural edge videos on Rural Innovation Network communities
+** Reading/watching list
+*** RWIF Story 1
+*** Ascendium report: Rural Tech Employment Landscape (TED)
+*** EDA reports on future focused rural dev.
+**** The future of work in rural America
+**** The rise of remote work in rural America
+**** The gig economy in rural America
+**** Geography of innovation
+**** Automation in rural America
+*** Watch rural edge videos on Rural Innovation Network communities
 
-* TODO Logging/stuff [6/6]
+** TODO Logging/stuff [6/6]
 - [x] Zoom
     -> profil
 - [x] Slack
@@ -98,3 +94,18 @@ DEADLINE: <2023-01-30 Mon>
 - [x] CORI github
 - [x] Zendesk
 - [x] Airtable
+
+
+* <2023-01-24 Tue>
+
+** Logging to App 2 [1/2]
+- [x] divy
+- [ ] Slack
+
+** installing R&co
+*** R / Rstudio [0/6]
+- [ ] radian
+- [ ] task view Spatial
+- [ ] DBI/RpostgreSQL
+- [ ] tidyverse
+- [ ] some of the fastverse
