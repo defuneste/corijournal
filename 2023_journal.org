@@ -150,6 +150,11 @@ install.packages("colorspace")
 Project is called *ded* (see github repo): it take data as input and produce set of graphics in png then they aredropped in google drive for partners
 
 ** Meeting with Drew
-- start with coriverse
+- start with *coriverse*
 - focus on documentation
 - slowly help organize/streamline/bring idea
+
+** exploring packages in github
+- good read in the wiki of coriverse
+- relying on gh tokem and {gh} and I will need to setup it instead of using ssh
+- should we build package site for internal package?
