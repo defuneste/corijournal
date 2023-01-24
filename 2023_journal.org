@@ -98,14 +98,33 @@ DEADLINE: <2023-01-30 Mon>
 
 * <2023-01-24 Tue>
 
-** Logging to App 2 [1/2]
+** Logging to App 2 [2/3]
 - [x] divy
-- [ ] Slack
+- [x] Slack
+- [x] Zoom
 
 ** installing R&co
 *** R / Rstudio [0/6]
-- [ ] radian
+- [ ] radian : https://github.com/randy3k/radian
+
+it needed pip3 luckily shipped with Mac
+
+#+begin_src bash
+pip3 install -U radian
+# to test
+# export PATH=$PATH:/Users/blbalbalb/Library/Python/3.9/bin
+# radian
+vi ~/.zprofile
+# add export
+# unsure about this one
+# echo 'alias r="radian"' >> ~/.zprofile
+#+end_src
+
 - [ ] task view Spatial
 - [ ] DBI/RpostgreSQL
 - [ ] tidyverse
 - [ ] some of the fastverse
+
+** meeting with Mark
+- Grant: broadband / impact/risk with climate change
+- Podcast: https://www.brookings.edu/series/reimagine-rural/
