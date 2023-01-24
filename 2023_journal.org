@@ -8,7 +8,7 @@
 
 * <2023-01-23 Mon>
 
-** seting up mac that it look like I will need in no particular order
+** setting up mac that it look like I will need in no particular order
 *** R / Rstudio [0/6]
 - [ ] radian
 - [ ] task view Spatial
@@ -98,14 +98,15 @@ DEADLINE: <2023-01-30 Mon>
 
 * <2023-01-24 Tue>
 
-** Logging to App 2 [2/3]
+** Logging to App 2 [4/4]
 - [x] divy
 - [x] Slack
 - [x] Zoom
+- [x] firefox: should have started with it
 
 ** installing R&co
-*** R / Rstudio [0/6]
-- [ ] radian : https://github.com/randy3k/radian
+*** R / Rstudio [1/6]
+- [x] radian : https://github.com/randy3k/radian
 
 it needed pip3 luckily shipped with Mac
 
@@ -116,15 +117,39 @@ pip3 install -U radian
 # radian
 vi ~/.zprofile
 # add export
-# unsure about this one
+# unsure about this one : it map redo=  should check ohmyzsh alias
 # echo 'alias r="radian"' >> ~/.zprofile
 #+end_src
 
 - [ ] task view Spatial
-- [ ] DBI/RpostgreSQL
-- [ ] tidyverse
-- [ ] some of the fastverse
+#+begin_src R
+install.packages("ctv")
+ctv::install.views("Spatial")
+# trouble with terra probably because of gdal
+# and the fact that I do not have clang I added llvm with homebrew
+# but did not setup the path permantly, not better
+# then tested:  https://github.com/rspatial/terra
+# ttps://github.com/r-spatial/sf/issues/1268
+# this could help
+#+end_src
 
-** meeting with Mark
+- [x] DBI/RpostgreSQL
+- [x] tidyverse
+  #+begin_src R
+install.packages("tidyverse")
+# needed colorspace
+install.packages("colorspace")
+  #+end_src
+- [ ] some of the fastverse -> see later if project need it
+
+** Meeting with Mark
 - Grant: broadband / impact/risk with climate change
 - Podcast: https://www.brookings.edu/series/reimagine-rural/
+** Meeting with Camden
+
+Project is called *ded* (see github repo): it take data as input and produce set of graphics in png then they aredropped in google drive for partners
+
+** Meeting with Drew
+- start with coriverse
+- focus on documentation
+- slowly help organize/streamline/bring idea
