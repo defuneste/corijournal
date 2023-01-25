@@ -1,6 +1,10 @@
 #+TITLE: 2023 Journal
 
-** Important point to discus with every members:
+* ressources:
+
+GH dashboard of org: https://github.com/orgs/ruralinnovation/dashboard
+
+* Important point to discus with every members:
 - what tools do they use?
 - what are their data need?
 - what are their workflow?
@@ -9,13 +13,13 @@
 * <2023-01-23 Mon>
 
 ** setting up mac that it look like I will need in no particular order
-*** R / Rstudio [0/6]
-- [ ] radian
-- [ ] task view Spatial
-- [ ] DBI/RpostgreSQL
-- [ ] tidyverse
-- [ ] some of the fastverse
-- [ ] Rstudio
+*** R / Rstudio [6/6] -> part done<2023-01-24 Tue>
+- [x] radian
+- [x] task view Spatial
+- [x] DBI/RpostgreSQL
+- [x] tidyverse
+- [x] some of the fastverse
+- [x] Rstudio -> done<2023-01-25 Wed>
 *** Emacs/mydotfile
 *** Linux&convenience [4/6]
 - [x] homebrew
@@ -147,7 +151,7 @@ install.packages("colorspace")
 - Podcast: https://www.brookings.edu/series/reimagine-rural/
 ** Meeting with Camden
 
-Project is called *ded* (see github repo): it take data as input and produce set of graphics in png then they aredropped in google drive for partners
+Project is called *ded* (I guess it *TED*) (see github repo): it take data as input and produce set of graphics in png then they aredropped in google drive for partners
 
 ** Meeting with Drew
 - start with *coriverse*
@@ -155,10 +159,18 @@ Project is called *ded* (see github repo): it take data as input and produce set
 - slowly help organize/streamline/bring idea
 
 ** exploring packages in github
-- good read in the wiki of coriverse
-- relying on gh token and {gh} and I will need to setup it instead of using ss
+- good read in the wiki of coriverse: https://github.com/ruralinnovation/coriverse/wiki
+- relying on gh token and {gh} and I will need to setup it instead of using ssh
 - should we build package site for internal package?
 
 * <2023-01-25 Wed>
 
-    start with gh
+** setting up MAC round 3
+- [x] start with {gh}
+  following coriverse works out of the box, added comments top help newcomers
+  Still some dependencies to install and could take some ime
+- [x] git config global :
+  I just setup the minimum (name + address for blame) in shell instead of R https://www.git-scm.com/book/en/v2/Customizing-Git-Git-Configuration
+** meeting with the team
+- question about data product in rmda team web page
+- round table
