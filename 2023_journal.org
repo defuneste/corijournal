@@ -105,7 +105,7 @@ DEADLINE: <2023-01-30 Mon>
 - [x] firefox: should have started with it
 
 ** installing R&co
-*** R / Rstudio [1/6]
+*** R / Rstudio [5/5]
 - [x] radian : https://github.com/randy3k/radian
 
 it needed pip3 luckily shipped with Mac
@@ -121,7 +121,7 @@ vi ~/.zprofile
 # echo 'alias r="radian"' >> ~/.zprofile
 #+end_src
 
-- [ ] task view Spatial
+- [x] task view Spatial
 #+begin_src R
 install.packages("ctv")
 ctv::install.views("Spatial")
@@ -140,7 +140,7 @@ install.packages("tidyverse")
 # needed colorspace
 install.packages("colorspace")
   #+end_src
-- [ ] some of the fastverse -> see later if project need it
+- [x] some of the fastverse -> see later if project need it
 
 ** Meeting with Mark
 - Grant: broadband / impact/risk with climate change
@@ -156,5 +156,9 @@ Project is called *ded* (see github repo): it take data as input and produce set
 
 ** exploring packages in github
 - good read in the wiki of coriverse
-- relying on gh tokem and {gh} and I will need to setup it instead of using ssh
+- relying on gh token and {gh} and I will need to setup it instead of using ss
 - should we build package site for internal package?
+
+* <2023-01-25 Wed>
+
+    start with gh
