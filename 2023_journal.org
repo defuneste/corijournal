@@ -151,7 +151,7 @@ install.packages("colorspace")
 - Podcast: https://www.brookings.edu/series/reimagine-rural/
 ** Meeting with Camden
 
-Project is called *ded* (I guess it *TED*) (see github repo): it take data as input and produce set of graphics in png then they aredropped in google drive for partners
+Project is called *ded* (I guess it is *TED*) (see github repo): it take data as input and produce set of graphics in png then they aredropped in google drive for partners
 
 ** Meeting with Drew
 - start with *coriverse*
@@ -167,10 +167,31 @@ Project is called *ded* (I guess it *TED*) (see github repo): it take data as in
 
 ** setting up MAC round 3
 - [x] start with {gh}
-  following coriverse works out of the box, added comments top help newcomers
-  Still some dependencies to install and could take some ime
+  following coriverse works out of the box, added comments to help newcomers
+  Still some dependencies to install and could take some time
 - [x] git config global :
   I just setup the minimum (name + address for blame) in shell instead of R https://www.git-scm.com/book/en/v2/Customizing-Git-Git-Configuration
 ** meeting with the team
 - question about data product in rmda team web page
 - round table
+** CORI/RISI meeting
+- Paul Yost : https://yostlabs.com/
+- Sizze (sizze.io)
+
+** Meeting with Camden
+- Getting that TED is DED
+- Focusing on tools for visualization/mapping
+** Meeting with Brittany
+- Works with dForm (fork abit ahedad from https://github.com/matthewjrogers/dform)
+- Does geocoding on it
+- uses the coriverse
+- metadata trouble -> maybe a way to simplify that
+** Meeting with Matt
+- Keeping the vision:
+  * transparency/accessibility
+  * entrepreneurial spirit
+  * Diversity equity and inclusion in team and for who
+
+- "Town and gown" -> https://en.wikipedia.org/wiki/Town_and_gown
+
+- [ ] +1 on the watching list : https://ruralinnovation.us/community-impact/rural-innovation-network/waterville_me/
