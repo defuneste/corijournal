@@ -195,3 +195,15 @@ Project is called *ded* (I guess it is *TED*) (see github repo): it take data as
 - "Town and gown" -> https://en.wikipedia.org/wiki/Town_and_gown
 
 - [ ] +1 on the watching list : https://ruralinnovation.us/community-impact/rural-innovation-network/waterville_me/
+
+
+* <2023-01-26 Thu>
+
+** Update profiles
+- [ ] slack
+- [ ] bio/headshot
+- [ ] zoom
+** Meeting with the team
+** Meeting with Dolley
+** Meeting with May
+** Build cori utils without any error
