@@ -199,7 +199,7 @@ Project is called *ded* (I guess it is *TED*) (see github repo): it take data as
 
 * <2023-01-26 Thu>
 
-** Update profiles
+** Update profiles -> pushing that for later!
 - [ ] slack
 - [ ] bio/headshot
 - [ ] zoom
@@ -216,3 +216,8 @@ Project is called *ded* (I guess it is *TED*) (see github repo): it take data as
 ** Meeting with May
 ** Build cori utils without any error
 - PRed it: some functions/data where not into pkg yml >- added them manually not great
+** Meeting with John
+- ssh for AWS
+- a tour of infrastructure
+** random question
+- regrid data
