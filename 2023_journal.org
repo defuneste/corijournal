@@ -204,6 +204,15 @@ Project is called *ded* (I guess it is *TED*) (see github repo): it take data as
 - [ ] bio/headshot
 - [ ] zoom
 ** Meeting with the team
+- Quick description of the databases / their physical infrastructure
+- How the team use them / connect to them
+- Discus a bit some tech debt
 ** Meeting with Dolley
+- Question on ~.gitignore~  and what kind of files/directory should be in it
+- Organize / project on git then github
+- How review / PR work in the team / depending of type of project
+- Social aspect of github
+- Devops principles
 ** Meeting with May
 ** Build cori utils without any error
+- PRed it: some functions/data where not into pkg yml >- added them manually not great
