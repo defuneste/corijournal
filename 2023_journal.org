@@ -1,5 +1,9 @@
 #+TITLE: 2023 Journal
 
+* Management
+- Harvest
+- Airtable
+
 * ressources:
 
 GH dashboard of org: https://github.com/orgs/ruralinnovation/dashboard
@@ -224,10 +228,29 @@ Project is called *ded* (I guess it is *TED*) (see github repo): it take data as
 
 * <2023-01-27 Fri>
 
-** setup a repo with doc with GHA at push on main
+** setup a repo with doc with GHA at push on main ?
 ** Meeting with Betsy
 - Should we spend time cleaning/archive some stuff ?
+  -> yes but low priority could be done at small meeting
 - README.md org
+
 ** Check DB size
-- [ ] quick tour psql
-- [ ] install pgadmin
+- [x] quick tour psql
+- [x] install pgadmin
+** GHA jargon
+
+/worflow/ are triggered when an /event/ occurs.
+
+Workflown can contains /jobs/, can be run in sequential order or in parallel.
+
+We can use a /runner/  or a /container/
+** Investigate CORI package
+
+53/214 we have:
+- R project repos
+- API/AWS/Amplify repos -> goal is build API for CORI data
+- some boilerplate
+- CARTO stuff
+- shiny app repo to git -> deploy
+- Pipeline with different flavors (DAG, sequential scripts)
+- some utilities/infrastructure: ansible .github
