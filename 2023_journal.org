@@ -296,6 +296,49 @@ jobs:
 - prob bad idea to save/store data
 
 ** SE project
+
+- data can be download from: https://broadbandmap.fcc.gov/data-download
+- data dictionary: https://us-fcc.app.box.com/v/bdc-data-downloads-output
+
+  *** Potential Workflow:
+1. DL data for one State -> folder
+2. Unzip -> Move (maybe)
+3. A working solution a bit rude on the memory
+
+   #+begin_src r
+
+var_names <-  c(
+    "frn" = "character",
+    "provider_id" = "character",
+    "brand_name" = "factor",
+    "location_id" = "character",
+    "technology" = "character",
+    "max_advertised_download_speed" = NA,
+    "max_advertised_upload_speed" = NA,
+    "low_latency" = NA,
+    "business_residential_code" = "factor",
+    "block_geoid" = "character",
+    "h3_res8_id" = "NULL" # skip
+)
+
+
+listes_of_files <- paste0("data/", list.files("data"))
+
+my_csv <- lapply(listes_of_files , read.csv, colClasses = var_names)
+result <- do.call(rbind, my_csv)
+
+  #+end_src
+
+4. Export to DB
+5. Repeat for each states
+
+Way to improve:
+    - export to DB at each ~.csv~
+    - instead of loading everything into ~my_csv~  at each step: rbind, then clear
+    - using faster importing function (data.table/read_csv) and taking dependencies
+
+6. Setup DB for the data, normalize part of it ?
+
 ** Team meeting
 
 - See Campden for SE region ETL and analysis
@@ -306,3 +349,7 @@ jobs:
 ** TODO bio!
 
 ** Form-990
+
+- checked volume of data
+- low number errors with a bigger number in 2010
+- test with 2019
