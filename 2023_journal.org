@@ -241,7 +241,7 @@ Project is called *ded* (I guess it is *TED*) (see github repo): it take data as
 
 /worflow/ are triggered when an /event/ occurs.
 
-Workflown can contains /jobs/, can be run in sequential order or in parallel.
+Workflown can contains /jobs/ (a job contain multiple /steps/),  can be run in sequential order or in parallel.
 
 We can use a /runner/  or a /container/
 ** Investigate CORI package
@@ -258,6 +258,51 @@ We can use a /runner/  or a /container/
 * <2023-01-30 Mon>
 
 ** GHA jargon
+
+Understand GHA: https://docs.github.com/en/actions/learn-github-actions/understanding-github-actions
+
+/events/ a specific activity that trigger a workflow : it can be push to specific branch, PR, cron job, using GH rest API
+
+/steps/ are sequential and depend on each other, inside of the same runner data can be share
+
+/runner/ look like a VM (ubuntu, Windows, MacOS)
+
+*** Envt variable = /context/
+
+It looks like they are named /context/: https://docs.github.com/en/actions/learn-github-actions/contexts
+
+~${{ XXX }}~ is used to store some envt varaible:
+
+examples:
+
+- ~${{ github.actor }}~ : the username of who triggered the actions
+
+- ~${{ github.event_name }}~ : type of event
+
+- ~${{ job.status }}~ : success/failure
+
+*** YAML
+
+#+begin_src yaml
+jobs:
+  name_of_job:
+    runs-on: VM_of_some-version
+
+#+end_src
+
+*** Pros/Cons using gha
++ no need to "pay"
+- dependence on GH
+- prob bad idea to save/store data
+
 ** SE project
 ** Team meeting
+
+- See Campden for SE region ETL and analysis
+- Meeting with John/Drew about "form 990"
+
 ** CORI repo 2
+
+** TODO bio!
+
+** Form-990
