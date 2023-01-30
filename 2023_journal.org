@@ -254,3 +254,10 @@ We can use a /runner/  or a /container/
 - shiny app repo to git -> deploy
 - Pipeline with different flavors (DAG, sequential scripts)
 - some utilities/infrastructure: ansible .github
+
+* <2023-01-30 Mon>
+
+** GHA jargon
+** SE project
+** Team meeting
+** CORI repo 2
