@@ -103,7 +103,6 @@ DEADLINE: <2023-01-30 Mon>
 - [x] Zendesk
 - [x] Airtable
 
-
 * <2023-01-24 Tue>
 
 ** Logging to App 2 [4/4]
@@ -199,7 +198,6 @@ Project is called *ded* (I guess it is *TED*) (see github repo): it take data as
 - "Town and gown" -> https://en.wikipedia.org/wiki/Town_and_gown
 
 - [ ] +1 on the watching list : https://ruralinnovation.us/community-impact/rural-innovation-network/waterville_me/
-
 
 * <2023-01-26 Thu>
 
@@ -353,3 +351,36 @@ Way to improve:
 - checked volume of data
 - low number errors with a bigger number in 2010
 - test with 2019
+* <2023-01-31 Tue>
+
+** Bio + headshot
+
+** County population
+*** RFC/design doc
+context : shiny app that summarize data and produce xls and png
+digest by a shiny app
+
+call the database
+
+county level
+
+new release
+
+population is at county level and release
+
+rii_diagnostic.county_diagnostic_variables
+
+
+** SE is for RWJF
+*** Design doc
+
+form 477
+
+raw
+
+bloc
+- total of location
+- total of business
+
+
+** Meeting with the team
