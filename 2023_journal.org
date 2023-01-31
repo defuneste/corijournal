@@ -374,13 +374,18 @@ rii_diagnostic.county_diagnostic_variables
 ** SE is for RWJF
 *** Design doc
 
-form 477
+- seeform 477
+- raw
 
-raw
-
-bloc
-- total of location
-- total of business
-
+- bloc
+  - total of location
+  - total of business
+*** Better do use SQL
 
 ** Meeting with the team
+
+
+* <2023-02-01 Wed>
+
+** meeting with Matt Rodgers
+- dependencies on sch_layer & sch_source
