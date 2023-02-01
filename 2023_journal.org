@@ -387,5 +387,28 @@ rii_diagnostic.county_diagnostic_variables
 
 * <2023-02-01 Wed>
 
+
+** meeting with team
+
 ** meeting with Matt Rodgers
 - dependencies on sch_layer & sch_source
+
+
+** Pulling FCC data
+
+** FCC data
+*** min two options
+- aggregate before importing
+- aggregate after
+
+*** Testing psql
+ - ~.pgpass~ ?
+ - [ ] do some dummy files
+ - [ ] create DB first instead
+
+*** Aggregate data at various level:
+    - understand what we aggregate
+    - level are:
+        - census block
+        - county
+        - nb ?
