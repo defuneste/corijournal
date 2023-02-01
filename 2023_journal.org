@@ -392,11 +392,15 @@ rii_diagnostic.county_diagnostic_variables
 
 ** meeting with Matt Rodgers
 - dependencies on sch_layer & sch_source
-
+- can spend an hour to see if stuff can be deleted
+- we can go and document pkg
 
 ** Pulling FCC data
+- putting ~.zip~ into s3
 
 ** FCC data
+*** S3 -> RDS
+
 *** min two options
 - aggregate before importing
 - aggregate after
@@ -408,7 +412,48 @@ rii_diagnostic.county_diagnostic_variables
 
 *** Aggregate data at various level:
     - understand what we aggregate
+      - do we populate with abs/0 value ?
     - level are:
         - census block
         - county
         - nb ?
+** Meeting with John
+- store unuse DB into s3
+#+begin_src R
+# Date: 2023-02-01
+# Author: Olivier Leroy
+# Goal: produce a csv with all the schema/tables inside of data
+
+# inside pgadmin and in data
+# SELECT * FROM information_schema.tables;
+# then export
+# TODO can be done with R
+
+
+db <- read.csv("data/data-1675279610721.csv")
+
+db_cori <- db[!db$table_schema %in% c("pg_catalog", "information_schema") ,]
+
+# does our tables are linked to other or not
+# select * bring a lot of non intersting columns with same/uniques values
+# we do not want them
+
+filter_column <- vector(mode = "logical", length(db_cori))
+
+for(i in 1:length(names(db_cori))){
+  filter_column[i] <- ifelse(
+    length(
+      unique(db_cori[,i])
+      ) > 1, TRUE, FALSE
+    )
+}
+
+db_cori_simple <- db_cori[, filter_column]
+
+write.csv(db_cori_simple, "db_cori.csv")
+# TODO later remove row index
+
+# Removed in gsheet the first public schema used by PsotgreSQL extension
+# then I did not need the last two columns
+
+#+end_src
