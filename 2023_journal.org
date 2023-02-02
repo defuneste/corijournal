@@ -38,7 +38,7 @@ GH dashboard of org: https://github.com/orgs/ruralinnovation/dashboard
     git --version
     #+end_src
 
-- [x] postgreSQL/Postgis -> maybe on server
+- [x] postgreSQL/Postgis -> done in <2023-02-02 Thu>
 - [x] ohmyzash
   * followed instruction: https://github.com/ohmyzsh/ohmyzsh
     #+begin_src bash
@@ -52,7 +52,6 @@ GH dashboard of org: https://github.com/orgs/ruralinnovation/dashboard
   already installed see ~ssh~
 
 ** Meeting with all the team
-
 ** Meeting with Betsy
 ** Meeting with October
 - linkedin/twitter and social media stuff?
@@ -66,7 +65,7 @@ GH dashboard of org: https://github.com/orgs/ruralinnovation/dashboard
 
 *** Check the ressource center
 
-*** TODO Check self eval
+*** TODO Check self eval [1/3]
 DEADLINE: <2023-01-30 Mon>
 
 - [ ] form DEI+B
@@ -79,7 +78,7 @@ DEADLINE: <2023-01-30 Mon>
     we divide the monthly by pay periode
     hsa eligible
 
-- [ ] Bio + headshot
+- [X] Bio + headshot
 
 ** Reading/watching list
 *** RWIF Story 1
@@ -344,7 +343,7 @@ Way to improve:
 
 ** CORI repo 2
 
-** TODO bio!
+** DONE bio!
 
 ** Form-990
 
@@ -383,7 +382,6 @@ rii_diagnostic.county_diagnostic_variables
 *** Better do use SQL
 
 ** Meeting with the team
-
 
 * <2023-02-01 Wed>
 
@@ -457,3 +455,26 @@ write.csv(db_cori_simple, "db_cori.csv")
 # then I did not need the last two columns
 
 #+end_src
+* <2023-02-02 Thu>
+** Install PostgreSQL/Postgis
+
+- I used the EDB solution, it also offer PostGIS (but not hstore)
+  https://www.enterprisedb.com/docs/supported-open-source/postgresql/installer/02_installing_postgresql_with_the_graphical_installation_wizard/macos/
+- On Mac + oh my zsh you need to add an export in ~/.zprofile~
+
+  #+begin_src bash
+export PATH="/Library/PostgreSQL/15/bin/:PATH"
+  #+end_src
+
+** FCC data
+
+- unzip in pipleine or before
+- use s3 -> rds option? need PostgreSQL extension
+- Currently using ~cut~ to ro select columns (Con: Cut will not know if ~,~ is in some text data ...)
+- [ ] On Mac I will go ~.pgpass~ for the test
+- [ ] setup schema staging
+- [ ] setup DB+tables / technology
+
+- verify unique value for some technology in Ohio
+
+** Team meeting
