@@ -468,12 +468,29 @@ export PATH="/Library/PostgreSQL/15/bin/:PATH"
 
 ** FCC data
 
-- unzip in pipleine or before
+- unzip in pipleine or before ?
 - use s3 -> rds option? need PostgreSQL extension
 - Currently using ~cut~ to ro select columns (Con: Cut will not know if ~,~ is in some text data ...)
-- [ ] On Mac I will go ~.pgpass~ for the test
-- [ ] setup schema staging
-- [ ] setup DB+tables / technology
+- [X] On Mac I will go ~.pgpass~ for the test
+
+#+begin_src bash
+echo "host:5432:db:postgres:my_pwd" > ~/.pgpass
+sudo chmod 0600 ~/.pgpass
+# modifying owner could be needed for olivierleroy
+# I created a user olivierleroy in postgres
+#sudo chown olivierleroy ~/.pgpass
+#also exporting PGPASSFILE could be needed
+#+end_src
+
+- [X] setup schema staging on MacOS
+  #+begin_src sql
+create database data;
+-- in data
+create schema staging;
+-- \dt
+  #+end_src
+- [X] setup DB+tables / technology
+    - setup a v0
 
 - verify unique value for some technology in Ohio
 
