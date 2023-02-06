@@ -507,3 +507,10 @@ create schema staging;
 - still unsure if I should add brand_name or join it latter
 
 ** Add documentation
+* <2023-02-06 Mon>
+** Team meeting
+** Save time to AWS RDS -> RDS
+*** Learn more about AWS
+** FCC
+- [ ] structure table for Drew
+** NRI
