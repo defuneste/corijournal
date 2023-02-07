@@ -518,3 +518,12 @@ Lot of ~funct(case when bob then else end)~
 
 ** NRI
 - a bit of doc done: lot of columns (376 ...)
+* <2023-02-07 Tue>
+
+** team meeting
+GH ?
+
+** FCC
+- see previous day
+- move from s3 to rds
+** PUMA ?
