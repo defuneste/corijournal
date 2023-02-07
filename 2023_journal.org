@@ -522,8 +522,14 @@ Lot of ~funct(case when bob then else end)~
 
 ** team meeting
 GH ?
+Added in wiki:
+    - name format for s3
+    - basic git workflow
 
 ** FCC
 - see previous day
 - move from s3 to rds
 ** PUMA ?
+- [ ]create repo
+- save docs
+- Goal is to find a way to qualify PUMA R/NR so we can use PUMS
