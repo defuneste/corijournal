@@ -534,3 +534,19 @@ Added in wiki:
 - [x] create repo
 - [x] save docs
 - Goal is to find a way to qualify PUMA R/NR so we can use PUMS
+* <2023-02-08 Wed>
+
+** Team meeting
+** Org meeting
+- cool presentation on how works finance in non profit and the fund raisiing
+
+
+** FCC
+- [ ] terminate the ~sql~ that convert raw into structured
+- [ ]move S3 to RDS
+- [ ]test import raw into rds
+- [ ] test building from raw into rds
+
+
+** PUMA
+- read a bit about it, clean a bit readme
