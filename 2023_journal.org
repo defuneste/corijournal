@@ -502,7 +502,7 @@ create schema staging;
 - We will need a way to push/move DB from the EDA DB to Apia
 
 ** Testing aggregate for FCC
-- not eally aggregate, just some count and max see it with drew
+- not really aggregate, just some count and max see it with drew
 - changed cut for csvcut because
 - still unsure if I should add brand_name or join it latter
 
@@ -512,8 +512,8 @@ create schema staging;
 ** Save time to AWS RDS -> RDS
 *** Learn more about AWS
 ** FCC
-- [ ] structure table for Drew
-- [ ] I need boolean with cdt and max with cdt
+- [x] structure table for Drew
+- [x] I need boolean with cdt and max with cdt
 Lot of ~funct(case when bob then else end)~
 
 ** NRI
@@ -540,9 +540,8 @@ Added in wiki:
 ** Org meeting
 - cool presentation on how works finance in non profit and the fund raisiing
 
-
 ** FCC
-- [ ] terminate the ~sql~ that convert raw into structured
+- [x] terminate the ~sql~ that convert raw into structured
 - [ ]move S3 to RDS
 - [ ]test import raw into rds
 - [ ] test building from raw into rds
@@ -550,3 +549,5 @@ Added in wiki:
 
 ** PUMA
 - read a bit about it, clean a bit readme
+** Connect humanity
+data pipelines for 2/3 weeks
