@@ -534,6 +534,7 @@ Added in wiki:
 - [x] create repo
 - [x] save docs
 - Goal is to find a way to qualify PUMA R/NR so we can use PUMS
+
 * <2023-02-08 Wed>
 
 ** Team meeting
@@ -551,3 +552,6 @@ Added in wiki:
 - read a bit about it, clean a bit readme
 ** Connect humanity
 data pipelines for 2/3 weeks
+* <2023-02-09 Thu>
+** FCC
+- cf day before, will probably need to twink .sh  a bit also
