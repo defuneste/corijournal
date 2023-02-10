@@ -543,8 +543,8 @@ Added in wiki:
 
 ** FCC
 - [x] terminate the ~sql~ that convert raw into structured
-- [ ]move S3 to RDS
-- [ ]test import raw into rds
+- [X]move S3 to RDS --> need aws cli
+- [x]test import raw into rds
 - [ ] test building from raw into rds
 
 
@@ -555,3 +555,6 @@ data pipelines for 2/3 weeks
 * <2023-02-09 Thu>
 ** FCC
 - cf day before, will probably need to twink .sh  a bit also
+- I try to move s3 -> rds but failed : used sftp instead
+- Same with git repo: need to setup ssh from Server (?) to abe able to git clone repo, did not have time: sftp my way
+- clean a bit behind
