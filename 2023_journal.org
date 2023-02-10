@@ -554,7 +554,17 @@ Added in wiki:
 data pipelines for 2/3 weeks
 * <2023-02-09 Thu>
 ** FCC
-- cf day before, will probably need to twink .sh  a bit also
+- cf. day before, will probably need to twink ~.sh~  a bit also
 - I try to move s3 -> rds but failed : used sftp instead
-- Same with git repo: need to setup ssh from Server (?) to abe able to git clone repo, did not have time: sftp my way
-- clean a bit behind
+- Same with git repo: need to setup ssh from Server (?) to able to git clone repo, did not have time: sftp my way
+- [ ] clean a bit behind
+
+* <2023-02-10 Fri>
+
+** PUMA/PUMS
+
+    - outcomes needed is PUMS and PUMA rural or not is just a path to it, check the number of PUMS that change according to it
+    - read article
+** Team meeting
+** Meeting with Besty
+** SE region meeting
