@@ -568,3 +568,10 @@ data pipelines for 2/3 weeks
 ** Team meeting
 ** Meeting with Besty
 ** SE region meeting
+* <2023-02-13 Mon>
+** PUMA
+- [ ] get PUMS
+- [ ] Count pums / PUMA
+- [ ] see how rural/not rural affect number of PUMS
+
+** RWJF meeting
