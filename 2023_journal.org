@@ -570,8 +570,17 @@ data pipelines for 2/3 weeks
 ** SE region meeting
 * <2023-02-13 Mon>
 ** PUMA
-- [ ] get PUMS
-- [ ] Count pums / PUMA
-- [ ] see how rural/not rural affect number of PUMS
+- [x] get PUMS
+- [x] Count pums / PUMA
+- [x] see how rural/not rural affect number of PUMS
 
 ** RWJF meeting
+* <2023-02-14 Tue>
+** PUMA:
+
+- [ ] readme at R doc level with workflow
+- [ ] split EDA with function to load and eda
+- [ ] adding variables to see if we can get closer to rural def
+
+
+** Meeting with Drew FCC
