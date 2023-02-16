@@ -584,3 +584,20 @@ data pipelines for 2/3 weeks
 
 
 ** Meeting with Drew FCC
+* <2023-02-15 Wed>
+** PUMA
+
+- A lot of variable were not possible to create with current data sets
+- Need to do a list of what was done and not successful
+- Ipums was useful
+
+** Cori meeting
+
+- plannng for retreat
+- see a bit of SE project
+
+** Meeting with John and Betsy about
+
+- BCAT project
+  - manually DL files
+  - R script that send them to carto that need to be split / improve
