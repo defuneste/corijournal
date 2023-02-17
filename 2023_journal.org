@@ -601,3 +601,27 @@ data pipelines for 2/3 weeks
 - BCAT project
   - manually DL files
   - R script that send them to carto that need to be split / improve
+* <2023-02-16 Thu>
+
+** FCC
+
+- cleaned the repo
+- documented the workflow, sources and difficulty
+- Build a not usefull model for rural not rural
+  -> I think we are running in circle with ratio pop and part of pop that are metro make better sense
+
+
+** Geocoding
+
+- Tested DEGAUSS for good quality address
+- see if nominatim can works
+
+** meeting with Betsy
+
+- Progress on FCC
+- Progress on PUMA
+- Progress on DB
+
+  
+** Meeting with merging futire
+- "Serverless" infra that create codes to setup container for API codes
