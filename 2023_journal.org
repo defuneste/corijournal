@@ -622,6 +622,30 @@ data pipelines for 2/3 weeks
 - Progress on PUMA
 - Progress on DB
 
-  
 ** Meeting with merging futire
 - "Serverless" infra that create codes to setup container for API codes
+
+* <2023-02-17 Fri>
+
+** Team meeting
+
+** Drew FCC
+
+    - we add counts for services in FCC data (DONE)
+
+** PUMA
+    - cleaned a bit repo
+    - Wrote better graph for visualization
+    - submit ticket for Mark
+
+** meeting with Myles
+
+- clarification on CRS
+- use of toolbox
+
+* <2023-02-20 Mon>
+
+** FCC
+- Confirm geometry
+- Compare coverage on block between old source and new one
+- Calculate percentage of one tech and compare to the aggregate
