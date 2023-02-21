@@ -646,6 +646,9 @@ data pipelines for 2/3 weeks
 * <2023-02-20 Mon>
 
 ** FCC
-- Confirm geometry
+- Confirm geometry -> 2020 but need to check number of block and ID
 - Compare coverage on block between old source and new one
-- Calculate percentage of one tech and compare to the aggregate
+- Calculate percentage of one tech and compare to the aggregate -> not the sane corrected it
+* <2023-02-21 Tue>
+** FCC
+    - Could not reverse it
