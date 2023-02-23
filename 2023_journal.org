@@ -649,6 +649,37 @@ data pipelines for 2/3 weeks
 - Confirm geometry -> 2020 but need to check number of block and ID
 - Compare coverage on block between old source and new one
 - Calculate percentage of one tech and compare to the aggregate -> not the sane corrected it
+
 * <2023-02-21 Tue>
 ** FCC
     - Could not reverse it
+** geocoding
+
+- write quick script that use nominatim
+- need to have a "private" instance of it if we want to speed up the process
+** meeting with john
+
+see 904 repo
+** meeting with betsy and john
+
+a lot to do in our severs
+* <2023-02-22 Wed>
+
+** tested a lot of way of installing nominatim and osm DB
+    - I went with admin style
+    - Lowered the spec to match my vps:
+        #+begin_src shell
+ -e THREADS=4 \
+  -e POSTGRES_SHARED_BUFFERS=1GB \
+  -e PDegausOSTGRES_MAINTENANCE_WORK_MEM=1GB \
+  -e POSTGRES_AUTOVACUUM_WORK_MEM=2GB \
+  -e POSTGRES_WORK_MEM=50MB \
+  -e POSTGRES_EFFECTIVE_CACHE_SIZE=1GB \
+        #+end_src
+
+    - Used Degauss to geocode a part of addresses (usefull tools!)
+* <2023-02-23 Thu>
+
+** geocoding
+
+- optimize a bit script for getting lat/lon from nominatim
