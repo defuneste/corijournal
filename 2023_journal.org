@@ -683,3 +683,21 @@ a lot to do in our severs
 ** geocoding
 
 - optimize a bit script for getting lat/lon from nominatim
+- lot of trouble with getting url request from nominatim
+
+  I went with crul package a wrapper of cULR
+
+* <2023-02-24 Fri>
+
+**  Geocoding
+
+- Using crul to get request result
+- Nominatim send 200 with an empty list when he found no result
+- Had trouble parsing it
+
+
+** FCC
+
+- Meeting with John and Drew, we need to exclude download and upload with 0 speed, confirmation of not using satellite (question remain if we need to use it for satellite)
+- [ ] need to do an other DB called clean DB removing
+- [ ] structuring this DB with new version of table
