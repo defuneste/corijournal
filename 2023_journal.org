@@ -723,3 +723,28 @@ a lot to do in our severs
 ** FCC
 
 - cf last friday
+
+** I am bored loousing my time to get correct definition of rural
+
+*** Census definition
+
+- 62.2 M in 2019 (ACS 2019 5 year estimates)
+
+- Build from blocks: basic unit
+
+  Criteria to be urban: 500 people / square mile AND more than 2500 people
+
+ - not urban = rural
+
+
+*** Office of Management and budget
+
+- 45.4 M in 2019 Core Based Statistical Area
+
+- Use county
+
+- Metropolitan area: a central city with pop >= 50 000 and include neighboring counties that have strong social and economic link
+
+  -> metropolitan statistical areas  (MSA)
+
+- What is not MSA is "non metro" ie could include small town (2500 - 49 999) defined as rural by Census
