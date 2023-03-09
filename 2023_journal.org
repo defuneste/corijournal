@@ -702,7 +702,6 @@ a lot to do in our severs
 - [ ] need to do an other DB called clean DB removing
 - [ ] structuring this DB with new version of table
 
-
 * <2023-02-27 Mon>
 
 ** PUMA
@@ -748,3 +747,55 @@ a lot to do in our severs
   -> metropolitan statistical areas  (MSA)
 
 - What is not MSA is "non metro" ie could include small town (2500 - 49 999) defined as rural by Census
+
+* <2023-03-01 Wed>
+
+** meeting with the team
+
+** FCC
+ Divide the data in two sat / non sat
+
+** Added test to corybea
+
+* <2023-03-02 Thu>
+
+** PUMA
+
+Reproduce result for Mark
+
+** FCC
+* <2023-03-03 Fri>
+
+- Helped John on RDOF
+- Started target
+- find error in FCC ..
+- started some key fact for FCC
+
+* <2023-03-06 Mon>
+
+** PUMA
+
+- build target pipeline
+
+**  FCC update non sat / sat
+
+* <2023-03-07 Tue>
+
+** FCC
+
+- build at location after connect humanity meeting
+
+** Connect humanity
+
+- we probably will need household / footprint ?
+
+* <2023-03-08 Wed>
+
+** FCC
+
+- clean sat and non sat / Build at location with only satellite info
+
+  ~bool_and()~ is very nice
+** AWS RDS
+
+ - trouble with space in RDS: https://aws.amazon.com/premiumsupport/knowledge-center/diskfull-error-rds-postgresql/
