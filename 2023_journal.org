@@ -796,6 +796,13 @@ Reproduce result for Mark
 - clean sat and non sat / Build at location with only satellite info
 
   ~bool_and()~ is very nice
+
 ** AWS RDS
 
  - trouble with space in RDS: https://aws.amazon.com/premiumsupport/knowledge-center/diskfull-error-rds-postgresql/
+
+
+
+*  <2023-11-16 Thu>
+
+    - Travailler sur taux de mortalite par races et par county, utiliser "age standardize"
