@@ -803,6 +803,21 @@ Reproduce result for Mark
 
 
 
+* <2023-11-15 Wed>
+
+- travail sur life expectancy pour rwjf story 4, utilisation de targets, l'esperance de vie est differente en fonction des categories d'age
+
+- travail avec John sur la migration de la DB:
+    * correction de cori.db pour inclure plusieurs schema, pourrait nous poser pb
+    * meme pb avec les droits, ils sont donnees a un objet a un moment, il faut modifier les parametre des defauts
+    * utilisation d'ansible
+
+** FCC/BB
+    - export de `shp` et `gpkg` pour Myles et Anna (Valencia County NM)
+    - Pb sauver sur s3 avec la connection internet
+
+** Org meeting
+
 *  <2023-11-16 Thu>
 
     - Travailler sur taux de mortalite par races et par county, utiliser "age standardize"
