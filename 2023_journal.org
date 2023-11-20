@@ -821,3 +821,40 @@ Reproduce result for Mark
 *  <2023-11-16 Thu>
 
     - Travailler sur taux de mortalite par races et par county, utiliser "age standardize"
+
+* <2023-11-17 Fri>
+
+** DB stuff
+- changer MDA pour cibler la nouvelle base de donnees
+- ajuster leur pwd
+- La version de PG Admin peut influencer la facon dont le pwd et username est enregistre
+- amelioration de la doc pour se connecter
+
+
+** RWJF
+
+- ajout des tables pour rwjf
+
+
+* <2023-11-20 Mon>
+
+** amelioration de serving pour fcc
+
+    tetsing .:tablename , ie -v assignment
+
+    Un example:
+
+ #+begin_src bash
+psql \
+    $DBREF \
+    -f 03_01_move_out_of_stage.sql \
+    -v tablename=$TABLE >> ./$JOURNAL  2>&1
+ #+end_src
+
+Important cela fonctionne avec un systeme de key=value
+
+Avec:
+
+#+begin_src sql
+create table sch_broadband.:tablename()
+#+end_src
