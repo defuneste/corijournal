@@ -858,3 +858,16 @@ Avec:
 #+begin_src sql
 create table sch_broadband.:tablename()
 #+end_src
+
+
+Ansible: adding --check to the ansible playbook command, run it in a test way (but for some task ansible could not insure idempodancy, not being able to check change of state in a system)
+
+** Team question
+
+Definition et place de l'equipe au sein de l'org
+
+Testing JIRA
+
+** TED pipeleine
+
+elle beneficie d'avoir une integration avec target car il y a pas mal de reddit
