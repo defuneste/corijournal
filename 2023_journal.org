@@ -862,6 +862,14 @@ create table sch_broadband.:tablename()
 
 Ansible: adding --check to the ansible playbook command, run it in a test way (but for some task ansible could not insure idempodancy, not being able to check change of state in a system)
 
+** Documentation et migration DB
+
+Preparation onboarding BB team
+
+Merging ancienne branche
+
+preparer ce qui reste a faire
+
 ** Team question
 
 Definition et place de l'equipe au sein de l'org
@@ -871,3 +879,11 @@ Testing JIRA
 ** TED pipeleine
 
 elle beneficie d'avoir une integration avec target car il y a pas mal de reddit
+
+* <2023-11-21 Tue>
+
+tidyverse "pipeline" : dure a debugger penser a casser en sous etapes
+
+Le defaut du TED est qu'il y a pas / peu de map de son fonctionnement.
+
+Targets permet d'exporter en pleins de formats.
