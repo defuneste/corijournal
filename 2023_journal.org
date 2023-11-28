@@ -886,4 +886,32 @@ tidyverse "pipeline" : dure a debugger penser a casser en sous etapes
 
 Le defaut du TED est qu'il y a pas / peu de map de son fonctionnement.
 
-Targets permet d'exporter en pleins de formats.
+Targets permet d'exporter en pleins de formats comme mermaid.
+
+
+* <2023-11-22 Wed>
+
+** FCC
+verification du bon nombre de fichier
+petite modification du fichier
+
+- [ ] je devrais nettoryer un peu fccpipeline.sh
+- [ ] ajouter une var pour la release ex june23
+
+** TED
+
+Debut pipeline fcc
+
+* <2023-11-27 Mon>
+
+** FCC
+
+    debut d'utilisation pour garder une trace du QA/QC
+
+** BEAD tools
+
+longue discusion sur ce qu'il est rapide de faire ou pas
+
+** MVT / PMtiles
+
+tmap a un viewer MilesMcBain a un article dessus:  https://www.milesmcbain.com/posts/vector-tiles/
