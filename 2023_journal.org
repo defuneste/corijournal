@@ -895,8 +895,9 @@ Targets permet d'exporter en pleins de formats comme mermaid.
 verification du bon nombre de fichier
 petite modification du fichier
 
-- [ ] je devrais nettoryer un peu fccpipeline.sh
+- [ ] je devrais nettoyer un peu fccpipeline.sh
 - [ ] ajouter une var pour la release ex june23
+    -> pas certains que cela soit la bonne option
 
 ** TED
 
@@ -915,3 +916,32 @@ longue discusion sur ce qu'il est rapide de faire ou pas
 ** MVT / PMtiles
 
 tmap a un viewer MilesMcBain a un article dessus:  https://www.milesmcbain.com/posts/vector-tiles/
+
+** General R
+
+basename/dirname are great functions!
+
+
+* <2023-11-28 Tue>
+
+** General R
+    isTRUE() is safer fo condition
+
+** FCC
+
+- changement de certains params
+- tjrs pas claire comment traduire unserved area
+
+* <2023-11-29 Wed>
+
+
+** TED
+    maj de scripts pour goaddy, je devrais passer 5 mins sur le pkoi du cbind dans un aggregate
+
+** FCC
+
+    envoie de shp et gpkg
+
+** BB team et DB
+
+toujours aussi dur de mettre en place une connection pour d'autres personnes
