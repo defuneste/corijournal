@@ -945,3 +945,35 @@ basename/dirname are great functions!
 ** BB team et DB
 
 toujours aussi dur de mettre en place une connection pour d'autres personnes
+
+** R & co
+
+pour installer des libs au niveau "system" sur une ubuntu, on peut passer par le shell et sudo:
+
+#+begin_src bash
+sudo su - -c "R -e \"remotes::install_github('ruralinnovation/coriverse',
+                      auth_token = my_tok)\""
+#+end_src
+
+
+* <2023-11-30 Thu>
+
+** cori.utils
+
+update doc for some data
+j'utilise peux mais RData a just besoin de `load()``
+
+** TED
+
+    qwi: serieusement slow, je devrais passer plus de temps avec `fread`
+
+debut CPC: la structure resemble a un package
+
+** R stuff
+
+#+begin_src bash
+sudo su - -c "R -e \"update.packages('vctrs', repos = 'https://cloud.r
+    -project.org')\""
+#+end_src
+
+R utilise .R/Makevars pour stocker des info sur comment construire des pacquets
