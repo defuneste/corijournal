@@ -976,4 +976,43 @@ sudo su - -c "R -e \"update.packages('vctrs', repos = 'https://cloud.r
     -project.org')\""
 #+end_src
 
-R utilise .R/Makevars pour stocker des info sur comment construire des pacquets
+R utilise .R/Makevars pour stocker des info sur comment construire des pacquet
+
+* <2023-12-01 Fri>
+
+
+*** by block:
+- list of providers
+- count of distinct provdiers
+- list of distinct technologies
+- does block has: not 50 (fiber) upl >= 1k
+- does block has: 50 (fiber) upl >= 1k
+- all_fiber_flag make sense: it is cnt_total_locations = cnt_fiber
+- does block has > 25/3 (cnt_25_3 > 0)
+- does block has > 100/20
+- does block has either 40 or 50
+- max up
+- max down
+- max_ad_down_gig_other,
+- max_ad_up_gig_other
+- max_ad_down_gig_fiber
+- max_ad_up_gig_fiber
+- max up/down 40, 50 ,10, 70/71
+- cnt_gig_other_flag
+- cnt_gig_fiber_flag
+- cnt_fiber_cable_access_flag
+- cnt_bb_access_flag_100_100
+  Should we ad this one:
+- cnt of 40
+- cnt of 10
+- cnt of either 70 or 71
+- min up/down 24, 50, 10 70/71 (8 columns)
+** infra bike
+
+Surpris par le monde: autour de 100 personne
+
+** TED
+
+travail sur les pipelines, une sur CPC
+
+Essaie de prog assertive pour tester si les nouvelles versions de fichiers contiennent bien ce qui est attendu
