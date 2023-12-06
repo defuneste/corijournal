@@ -1016,3 +1016,45 @@ Surpris par le monde: autour de 100 personne
 travail sur les pipelines, une sur CPC
 
 Essaie de prog assertive pour tester si les nouvelles versions de fichiers contiennent bien ce qui est attendu
+
+** R stuff
+
+R.utils::gunzip() a pour default remove = TRUE et ne retourne que son side effect
+
+* <2023-12-04 Mon>
+
+** TED
+
+update qwi
+
+** AWS
+
+Tried to set up aws
+    - 1. you need an AWS account -> root user
+    - 2. you need to setup IAM users
+
+
+** ARC stuf
+
+adider a delimite ce projet un peu a l'arrache
+
+https://docs.google.com/spreadsheets/d/1RHngHKydTMzop3jw9tkOUrRB0g87hPiZhDfm_7TtNHA/edit#gid=776081950
+
+
+https://docs.google.com/spreadsheets/d/1RHngHKydTMzop3jw9tkOUrRB0g87hPiZhDfm_7TtNHA/edit#gid=1801159857
+
+
+H3: lire la doc verifier l implemtation avec R
+
+
+** BEAD
+
+https://docs.google.com/spreadsheets/d/1YCHWWjz135rJiTDqItnJTnESI4Xkq3JngBQ4fgh7PeM/edit#gid=0
+
+ idem scoping de projet
+
+* <2023-12-05 Tue>
+
+sick kid
+
+* <2023-12-06 Wed>
