@@ -1058,3 +1058,56 @@ https://docs.google.com/spreadsheets/d/1YCHWWjz135rJiTDqItnJTnESI4Xkq3JngBQ4fgh7
 sick kid
 
 * <2023-12-06 Wed>
+
+ACS pipleine -> lot of dep
+
+** FCC
+
+ADD some sanity check in FCC data
+
+on le passe en "prod"
+
+* <2023-12-07 Thu>
+
+** FCC
+
+- small update pour les droits de la table
+
+- test pour retirer 0/0 upload download
+
+
+** BEAD
+
+challenges data -> collected by states and not anymore by FCC
+
+eligibility is going to change according to states depending of *volume 1* (here states can challenges FCC)
+
+*volume 2* ? -> maybe underseved/unserved area here
+
+https://internetforall.gov/bead-initial-proposal-progress-dashboard
+
+Locations (no satellites data: NOFO):
+unserved 25/3
+underseved 100/20
+
+check served undersed with DSL and wireless
+
+if technology is X -> underserved
+
+information is provided as document and myabe some files (.shp)
+
+if layer from states diff than the FCC -> states win
+
+source our logic (DANGER) doc and pages
+
+https://broadbandusa.ntia.doc.gov/public-notice-posting-state-and-territory-bead-and-digital-equity-plansproposals
+
+census block vs bsl fabrics
+
+write what kind of data we can use and what we can't
+
+* <2023-12-08 Fri>
+
+** postgresql stuff:
+
+~is dictinct from~ est NULL proof
