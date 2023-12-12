@@ -1137,4 +1137,21 @@ suivre le workflow pour publier avec ghafir
 
 ** text analyis
 
-envoie d'un email au auteurs du livre mapping text analysis
+envoie d'un email aux auteurs du livre mapping text analysis
+
+* <2023-12-12 Tue>
+
+** TED/infra
+
+write_to_rii_diagnostic utilise pas mal de tidyverse stuff qui est "deprecated" (pour de bonne raison: select/pivot avec un vecteur de nom -> dure a gerer dans un workflow tidy)
+
+travail sur la doc: tout dans un schema mermaid!
+
+** TTD
+
+bon lien: https://tidyfirst.substack.com/p/canon-tdd
+
+** BEAD
+
+Nous faut  un lieu pour echanger sur les ISP
+Base de depart pour le travail sur les 0/0
