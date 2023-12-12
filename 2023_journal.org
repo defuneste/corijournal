@@ -1111,3 +1111,30 @@ write what kind of data we can use and what we can't
 ** postgresql stuff:
 
 ~is dictinct from~ est NULL proof
+
+** TED ACS
+
+New acs
+
+** FCC
+
+Adding a filter for 0/0 up/down
+
+* <2023-12-11 Mon>
+
+
+** TED/infra
+
+toujours un pb avec execute on DB: je devrais passer plus de temps sur le modele transactionnel
+
+** FCC
+
+ [ ] finir une presenatation sur FCC 0/0 et voir ce qu'est la suite
+
+** GHA
+
+suivre le workflow pour publier avec ghafir
+
+** text analyis
+
+envoie d'un email au auteurs du livre mapping text analysis
