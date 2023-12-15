@@ -1155,3 +1155,30 @@ bon lien: https://tidyfirst.substack.com/p/canon-tdd
 
 Nous faut  un lieu pour echanger sur les ISP
 Base de depart pour le travail sur les 0/0
+
+* <2023-12-13 Wed>
+
+** TED
+
+-> update DB pour la pluspart des cas
+pas de complications
+
+** BEAD
+
+ISP EDA, quarto joy of quarto preview / gp workflow
+
+** R stuff
+
+diff between tapply / by and aggregate
+
+-> https://stackoverflow.com/questions/3505701/grouping-functions-tapply-by-aggregate-and-the-apply-family
+
+* <2023-12-14 Thu>
+
+** gha from eddelbuettel:
+
+-> https://github.com/eddelbuettel/spotifytop50us/blob/master/.github/workflows/update.yaml
+
+** BEAD cleaning
+
+pas mal de nettoyage autour des isp, discuter du workflow autour de quarto avec john: j aime bien le serveur local et celui en ligne.
