@@ -1182,3 +1182,33 @@ diff between tapply / by and aggregate
 ** BEAD cleaning
 
 pas mal de nettoyage autour des isp, discuter du workflow autour de quarto avec john: j aime bien le serveur local et celui en ligne.
+
+* <2023-12-15 Fri>
+
+** FCC/BEAD
+
+    un packet d'index pour june 23
+
+** BEAD:
+
+    * Un depot GH
+    * spdep pour les polygones: devrait marcher
+
+** R stuff
+
+- quarto can export to confluence!
+
+
+* <2023-12-18 Mon>
+
+high turnover / fiscall cliff / rin network retention
+
+on est en realignment
+
+** BEAD Ilecs
+
+solution pour le cleaning des geometries: je passe par geos qui est moins scrupuleux.
+
+finalement on veut pe du json pour stocker Ilecs, je ne sais pas comment cela gere les valeurs manquantes.
+
+postgresql a un type natif (jsonb)
