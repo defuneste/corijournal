@@ -1212,3 +1212,25 @@ solution pour le cleaning des geometries: je passe par geos qui est moins scrupu
 finalement on veut pe du json pour stocker Ilecs, je ne sais pas comment cela gere les valeurs manquantes.
 
 postgresql a un type natif (jsonb)
+
+
+* <2023-12-19 Tue>
+
+** BEAD ilecs
+
+[X] document challenges from the data sets
+
+[X] store cleaned version to s3 buckets
+
+[ ] write tidy data with block and all ilec data
+
+[ ] write bullet point explaininmg wy this is not a correct way to provide data
+
+
+Create jira ticket with clean ISP:
+
+- document and git it
+
+*** ETL geoid_bl
+
+- add flag with water
