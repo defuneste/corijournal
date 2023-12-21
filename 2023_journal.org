@@ -1256,3 +1256,15 @@ Penser a regarder ~unique()~ et ~duplicated()~
 ** BEAD
 
     ETL ISP attention a la jointure avec l'id
+
+    23407264
+
+*** ilecs
+
+je vais pe devoir parrallelizer
+
+** R stuff
+
+~toString()~ est une fonction utile pour passer des requetes dans un db type gpkg/sqlite
+
+mcapply est plutot pas mal
