@@ -1234,3 +1234,25 @@ Create jira ticket with clean ISP:
 *** ETL geoid_bl
 
 - add flag with water
+
+* <2023-12-20 Wed>
+
+** BEAD
+
+    pas mal de comprehension
+
+    org meeting
+
+    J'ai pas mal galerer comme d'hab sur une jointure et aussi sur n mauvais check des donnees en entre
+
+    pas mal de documentation ecrite aussi
+
+** R stuff
+
+Penser a regarder ~unique()~ et ~duplicated()~
+
+* <2023-12-21 Thu>
+
+** BEAD
+
+    ETL ISP attention a la jointure avec l'id
