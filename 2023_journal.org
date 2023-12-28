@@ -1265,6 +1265,35 @@ je vais pe devoir parrallelizer
 
 ** R stuff
 
-~toString()~ est une fonction utile pour passer des requetes dans un db type gpkg/sqlite
+~toString()~ est une fonction utile pour passer des requetes dans une db type gpkg/sqlite
 
 mcapply est plutot pas mal
+
+change data to data_raw
+
+* <2023-12-27 Wed>
+
+** ilecs
+
+toujours testing les check pour accomoder le workflow
+
+
+** isp
+
+juste relancer pour voir si tout marche en une sequence
+- [ ] genere des duplicats ?
+
+- [ ] documente kk nombres utiles (dimensions)
+
+
+** targets
+
+https://raps-with-r.dev/targets.html#introduction
+
+> The first is that scripts can, and will, be executed out of order
+
+> Another issue is that pipelines written as scripts are usually quite difficult to read and understand
+
+utiliser ~tar_option_set~ pour charger les packages est necessaire pour faciliter la parralelisation au niveau de la chaine de traitement et assure
+
+https://books.ropensci.org/targets/cloud-storage.html#aws-setup for aws s3
