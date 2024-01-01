@@ -1297,3 +1297,29 @@ https://raps-with-r.dev/targets.html#introduction
 utiliser ~tar_option_set~ pour charger les packages est necessaire pour faciliter la parralelisation au niveau de la chaine de traitement et assure
 
 https://books.ropensci.org/targets/cloud-storage.html#aws-setup for aws s3
+
+* <2023-12-28 Thu>
+
+** TED
+
+il faut nettoyer le repo  acs, ajouter math and compo Sc
+
+** tiles
+
+explo de mvtiew et rdeck, besoin d un compte mapbox
+
+#+begin_src R
+library(mvtview)
+library(rdeck)
+
+serve_mvt("~/data_swamp/tiles/br/tr/tr_100_20_dec2022v3_z11z9", port = 8765, .serve_mode = "disk")
+
+rdeck() |>
+      add_mvt_layer(
+        data = tile_json("http://0.0.0.0:8765/tr_100_20_dec2022v3_z11z9.json"),
+        get_fill_color = scale_color_linear(
+          cnt_100_20
+        ),
+        opacity = 0.6
+      )
+#+end_src
