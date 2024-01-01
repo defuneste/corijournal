@@ -201,9 +201,9 @@ Project is called *ded* (I guess it is *TED*) (see github repo): it take data as
 * <2023-01-26 Thu>
 
 ** Update profiles -> pushing that for later!
-- [ ] slack
-- [ ] bio/headshot
-- [ ] zoom
+- [x] slack
+- [x] bio/headshot
+- [x] zoom
 ** Meeting with the team
 - Quick description of the databases / their physical infrastructure
 - How the team use them / connect to them
@@ -405,8 +405,8 @@ rii_diagnostic.county_diagnostic_variables
 
 *** Testing psql
  - ~.pgpass~ ?
- - [ ] do some dummy files
- - [ ] create DB first instead
+ - [x] do some dummy files
+ - [x] create DB first instead
 
 *** Aggregate data at various level:
     - understand what we aggregate
@@ -801,6 +801,9 @@ Reproduce result for Mark
 
  - trouble with space in RDS: https://aws.amazon.com/premiumsupport/knowledge-center/diskfull-error-rds-postgresql/
 
+
+
+ GROS TROU entre avril et novembre
 
 
 * <2023-11-15 Wed>
@@ -1323,3 +1326,6 @@ rdeck() |>
         opacity = 0.6
       )
 #+end_src
+
+
+postgresql: a une fonction pour aggreger en un ~jsonb jsonb_object_agg ( key "any", value "any" )~ → jsonb
